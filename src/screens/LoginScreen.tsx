@@ -1,6 +1,6 @@
 import React, { FC, useCallback } from "react";
 import { Button, ScrollView, StyleSheet } from "react-native";
-import { RouteNavigationParams, SCREENS } from "../navigation/types";
+import { RouteNavigationParams, SCREENS } from "navigation/types";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { Text } from "react-native-paper";
 
