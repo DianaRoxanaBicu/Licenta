@@ -1,9 +1,13 @@
 export enum SCREENS {
-	LOGIN = 'LOGIN',
-	HOME = 'HOME',
+  WELCOME = "WELCOME",
+  LOGIN = "LOGIN",
+  HOME = "HOME",
+  CREATE_ACCOUNT = "CREATE_ACCOUNT",
 }
 
 export type RouteNavigationParams = {
-	[SCREENS.LOGIN]: undefined;
-	[SCREENS.HOME]: undefined;
+  [SCREENS.WELCOME]: undefined;
+  [SCREENS.CREATE_ACCOUNT]: undefined;
+  [SCREENS.LOGIN]: undefined;
+  [SCREENS.HOME]: undefined;
 };
